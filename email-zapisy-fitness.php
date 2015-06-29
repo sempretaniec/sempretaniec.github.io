@@ -7,7 +7,7 @@
   <meta name="description" content="" >
   <script type="text/javascript" src="skrypt.js"></script>
   <link rel="Stylesheet" type="text/css" href="style.css" >
-  <title>Szko³a Tañca SEMPRETANIEC, Krak&oacute;w</title>
+  <title>SzkoÅ‚a TaÅ„ca SEMPRETANIEC, Krak&oacute;w</title>
   </head>
   <body>
   <div id="center">
@@ -19,10 +19,10 @@
   <dl>
     <dd><a href="taniec.html" class="menus">TANIEC</a></dd>
     <dd><a href="fitness.html" class="menus">FITNESS</a></dd>
-    <dd><a href="aktu.html" class="menus">AKTUALNO¦CI</a></dd>
+    <dd><a href="aktu.html" class="menus">AKTUALNOÅšCI</a></dd>
     <dd><a href="index.html" class="menus">O NAS</a></dd>
     <dd><a href="kadra.html" class="menus">KADRA INSTRUKTORSKA</a></dd>
-    <dd><a href="grafik.html" class="menus">GRAFIK ZAJÊÆ</a></dd>
+    <dd><a href="grafik.html" class="menus">GRAFIK ZAJÄ˜Ä†</a></dd>
     <dd><a href="galeria.html" class="menus">GALERIA</a></dd>
     <dd><a href="cennik.html" class="menus">CENNIK</a></dd>
     <dd><a href="firma.html" class="menus">DLA FIRM</a></dd>
@@ -37,7 +37,7 @@
   <div style="text-align:justify;margin-left:45px;margin-top:40px;">
 
 <?php
-//sprawdzenie czy za³±cznik pochodzi z formularza 
+//sprawdzenie czy zaÅ‚Ä…cznik pochodzi z formularza 
 if ($_POST["wyslij"]==1) 
 { 
 // dane o odbiorcy, nadawcy 
@@ -52,10 +52,10 @@ $wiadomosc=$_POST["wiadomosc"];
 $taniec=$_POST["taniec"];
 $grupa=$_POST["grupa"];
 
-// tre¶æ listu 
+// treÅ›Ä‡ listu 
 $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\" cellspacing=\"2\" align=center style=\"font-family: Verdana; font-size: 12px;\"> 
 <tr> 
-<td>Imiê i Nazwisko:</td> 
+<td>ImiÄ™ i Nazwisko:</td> 
 <td><b>".$imie."</b></td> 
 </tr> 
 <tr> 
@@ -82,26 +82,26 @@ $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\"
 <td>Uwagi:</td>
 <td><b>".$wiadomosc."</b></td> 
 <tr> 
-<td colspan=\"2\"><br>Proszê nie odpowiadaæ na tê wiadomo¶æ jest wygenerowana automatycznie<br></td>  
+<td colspan=\"2\"><br>ProszÄ™ nie odpowiadaÄ‡ na tÄ™ wiadomoÅ›Ä‡ jest wygenerowana automatycznie<br></td>  
 </tr>
 </table>"; 
 
-// definicja nag³&oacute;wk&oacute;w 
+// definicja nagÅ‚&oacute;wk&oacute;w 
   $naglowki  = "From: $nadawca \n"; 
   $naglowki .= "MIME-Version: 1.0\n"; 
   $naglowki .= "Content-Type: multipart/mixed;\n"; 
   $naglowki .= "\tboundary=\"___$znacznik==\""; 
 
-// nag³&oacute;wki listu 
+// nagÅ‚&oacute;wki listu 
   $tresc="--___$znacznik==\n"; 
   $tresc .="Content-Type: text/html; charset=\"iso-8859-2\"\n"; 
   $tresc .="Content-Transfer-Encoding: 8bit\n"; 
   $tresc .="\n$tresclistu\n"; 
 
-// wys³anie listu 
+// wysÅ‚anie listu 
      if (mail($odbiorca,$tytul,$tresc,$naglowki)) 
    { 
-   print "Wiadomo¶æ wys³ana dziêkujemy"; 
+   print "WiadomoÅ›Ä‡ wysÅ‚ana dziÄ™kujemy"; 
    } 
    else 
    { 
@@ -116,7 +116,7 @@ $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\"
   </div>
   <div id="dol">
   <div style="float:right;margin-top:12px;margin-right:20px;">wykonanie: <a href="http://www.projektowanie-www.info.pl" target="_blank" style="color:#fff;">projektowanie stron www</a></div>
-  <div style="text-align:left;margin-top:12px;margin-left:20px;">&copy; SempreTaniec.pl Wszelkie prawa zastrze¿one!</div>
+  <div style="text-align:left;margin-top:12px;margin-left:20px;">&copy; SempreTaniec.pl Wszelkie prawa zastrzeÅ¼one!</div>
   </div>
   </div>
   </body>

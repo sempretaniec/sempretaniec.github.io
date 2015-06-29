@@ -2,7 +2,7 @@ function check_form(f) {
     if (f.imie.value == '' ||
         f.email.value == '' ||
         f.numer.value == '') {
-        alert('Pole wymagane jest puste! wype≥nij go!');
+        alert('Pole wymagane jest puste! wype≈Çnij go!');
         return false;
     } 
   

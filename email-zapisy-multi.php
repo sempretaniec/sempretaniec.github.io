@@ -7,7 +7,7 @@
   <meta name="description" content="" >
   <script type="text/javascript" src="skrypt-zapisy.js"></script>
   <link rel="Stylesheet" type="text/css" href="style.css" >
-  <title>Szko≥a TaÒca SEMPRETANIEC, Krak&oacute;w - Lyrical Dance</title>
+  <title>Szko≈Ça Ta≈Ñca SEMPRETANIEC, Krak&oacute;w - Lyrical Dance</title>
   </head>
   <body>
   <div id="center">
@@ -43,12 +43,12 @@
   <div id="menu">
   <div style="text-align:left;margin-top:23px;margin-left:17px;">
   <dl>
-     <dd><a href="index.html" class="menus">STRONA G£&Oacute;WNA</a></dd>
+     <dd><a href="index.html" class="menus">STRONA G≈Å&Oacute;WNA</a></dd>
     <dd><a href="taniec.html" class="menus">TANIEC</a></dd>
     <dd><a href="fitness.html" class="menus">FITNESS</a></dd>
     <dd><a href="onas.html" class="menus">O NAS</a></dd>
     <dd><a href="kadra.html" class="menus">KADRA</a></dd>
-    <dd><a href="grafik.html" class="menus">GRAFIK ZAJ ∆</a></dd>
+    <dd><a href="grafik.html" class="menus">GRAFIK ZAJƒòƒÜ</a></dd>
     <dd><a href="galeria.html" class="menus">GALERIA</a></dd>
     <dd><a href="cennik.html" class="menus">CENNIK</a></dd>
     <dd><a href="partnerzy.html" class="menus">PARTNERZY</a></dd>
@@ -64,12 +64,12 @@
   <div style="text-align:justify;margin-left:45px;margin-top:40px;">
    <br><br><br>
 <?php
-//sprawdzenie czy za≥±cznik pochodzi z formularza 
+//sprawdzenie czy za≈ÇƒÖcznik pochodzi z formularza 
 if ($_POST["wyslij"]==1) 
 { 
 // dane o odbiorcy, nadawcy 
 $odbiorca="sempretaniec@sempretaniec.pl"; 
-$tytul="Zapisy na ZajÍcia";
+$tytul="Zapisy na Zajƒôcia";
 $nadawca = "admin"; 
 $nadawca_mail="user"; 
 $imie=$_POST["imie"];
@@ -79,11 +79,11 @@ $wiadomosc=$_POST["wiadomosc"];
 $taniec=$_POST["taniec"];
 $grupa=$_POST["grupa"];
 foreach ($grupa as $wybranagrupa) $wszystkie_grupy_rodzielone_przecinkami = $wszystkie_grupy_rodzielone_przecinkami . $wybranagrupa .", ";
-// tre∂Ê listu
+// tre≈õƒá listu
 
 $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\" cellspacing=\"2\" align=center style=\"font-family: Verdana; font-size: 12px;\"> 
 <tr> 
-<td>ImiÍ i Nazwisko:</td> 
+<td>Imiƒô i Nazwisko:</td> 
 <td><b>".$imie."</b></td> 
 </tr> 
 <tr> 
@@ -114,26 +114,26 @@ $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\"
 <td>Uwagi:</td>
 <td><b>".$wiadomosc."</b></td> 
 <tr> 
-<td colspan=\"2\"><br>ProszÍ nie odpowiadaÊ na tÍ wiadomo∂Ê jest wygenerowana automatycznie<br></td>  
+<td colspan=\"2\"><br>Proszƒô nie odpowiadaƒá na tƒô wiadomo≈õƒá jest wygenerowana automatycznie<br></td>  
 </tr>
 </table>"; 
 
-// definicja nag≥&oacute;wk&oacute;w 
+// definicja nag≈Ç&oacute;wk&oacute;w 
   $naglowki  = "From: $nadawca \n"; 
   $naglowki .= "MIME-Version: 1.0\n"; 
   $naglowki .= "Content-Type: multipart/mixed;\n"; 
   $naglowki .= "\tboundary=\"___$znacznik==\""; 
 
-// nag≥&oacute;wki listu 
+// nag≈Ç&oacute;wki listu 
   $tresc="--___$znacznik==\n"; 
   $tresc .="Content-Type: text/html; charset=\"iso-8859-2\"\n"; 
   $tresc .="Content-Transfer-Encoding: 8bit\n"; 
   $tresc .="\n$tresclistu\n"; 
 
-// wys≥anie listu 
+// wys≈Çanie listu 
      if (mail($odbiorca,$tytul,$tresc,$naglowki)) 
    { 
-   print "Wiadomo∂Ê wys≥ana dziÍkujemy"; 
+   print "Wiadomo≈õƒá wys≈Çana dziƒôkujemy"; 
    } 
    else 
    { 
@@ -148,7 +148,7 @@ $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\"
   </div>
   <div id="dol">
   <div style="float:right;margin-top:12px;margin-right:20px;">wykonanie: <a href="http://www.projektowanie-www.info.pl" target="_blank" style="color:#fff;">projektowanie stron www</a></div>
-  <div style="text-align:left;margin-top:12px;margin-left:20px;">&copy; SempreTaniec.pl Wszelkie prawa zastrzeøone!</div>
+  <div style="text-align:left;margin-top:12px;margin-left:20px;">&copy; SempreTaniec.pl Wszelkie prawa zastrze≈ºone!</div>
   </div>
   </div>
   </body>

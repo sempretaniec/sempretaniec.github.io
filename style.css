@@ -441,7 +441,7 @@ a.ikony-fitness img{
    display:block;
    }
 #cssmenu ul li.has-sub > a:hover{
-/*t³o menu rozwijanego hover */
+/*tÅ‚o menu rozwijanego hover */
     background:#892676; 
     
     }
@@ -454,7 +454,7 @@ a.ikony-fitness img{
   position:absolute; 
   top:52px; 
   padding:1px 0; 
-  /* T³o menu rozwiniêtego*/
+  /* TÅ‚o menu rozwiniÄ™tego*/
   background:#892676 ; 
   
    z-index:999; }
@@ -481,7 +481,7 @@ a.ikony-fitness img{
    text-shadow:1px 1px 0 rgba(0,0,0, 0.5); 
    }
 #cssmenu, #cssmenu > ul > li > ul > li a:hover{ 
-/*t³o po najechaniu myszk± na element rozwiniêty*/
+/*tÅ‚o po najechaniu myszkÄ… na element rozwiniÄ™ty*/
    background:url(photo/menutlo.jpg) repeat-x;
     }
 #cssmenu{border:none;}   
@@ -490,7 +490,7 @@ a.ikony-fitness img{
 color:#fff;}
 #cssmenu > ul > li > a:after{} 
 
-/*t³o element&oacute;w g³&oacute;wnych menu hover*/
+/*tÅ‚o element&oacute;w gÅ‚&oacute;wnych menu hover*/
 #cssmenu > ul > li > a:hover{background:#892676;}
 
 

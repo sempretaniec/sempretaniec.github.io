@@ -7,7 +7,7 @@
   <meta name="description" content="" >
   <script type="text/javascript" src="skrypt.js"></script>
   <link rel="Stylesheet" type="text/css" href="style.css" >
-  <title>Szko³a Tañca SEMPRETANIEC, Kraków</title>
+  <title>SzkoÅ‚a TaÅ„ca SEMPRETANIEC, KrakÃ³w</title>
   </head>
   <body>
   <div id="center">
@@ -19,10 +19,10 @@
   <dl>
     <dd><a href="taniec.html" class="menus">TANIEC</a></dd>
     <dd><a href="fitness.html" class="menus">FITNESS</a></dd>
-    <dd><a href="aktu.html" class="menus">AKTUALNO¦CI</a></dd>
+    <dd><a href="aktu.html" class="menus">AKTUALNOÅšCI</a></dd>
     <dd><a href="index.html" class="menus">O NAS</a></dd>
     <dd><a href="kadra.html" class="menus">KADRA INSTRUKTORSKA</a></dd>
-    <dd><a href="grafik.html" class="menus">GRAFIK ZAJÊÆ</a></dd>
+    <dd><a href="grafik.html" class="menus">GRAFIK ZAJÄ˜Ä†</a></dd>
     <dd><a href="galeria.html" class="menus">GALERIA</a></dd>
     <dd><a href="cennik.html" class="menus">CENNIK</a></dd>
     <dd><a href="firma.html" class="menus">DLA FIRM</a></dd>
@@ -35,9 +35,9 @@
   <div style="width:900px;height:auto;overflow:hidden;">
   <div style="float:right;margin-top:40px;margin-right:25px;margin-bottom:40px;"><img src="photo/mapa.jpg" class="photo1" alt=""></div>
   <div style="text-align:justify;margin-left:45px;margin-top:40px;">
-  Przyjd¼ do nas, wybierz termin<br>
-  i zapisz siê ju¿ dzi¶:<br><br>
-  Kraków<br>
+  PrzyjdÅº do nas, wybierz termin<br>
+  i zapisz siÄ™ juÅ¼ dziÅ›:<br><br>
+  KrakÃ³w<br>
   ul. Berka Joselewicza 26<br><br>
 tel. 012 292 2002<br>
 kom. 509 656 214<br><br>
@@ -45,7 +45,7 @@ GG: 8116664<br><br>
   email: <br><br>
   
 <?php
-//sprawdzenie czy za³±cznik pochodzi z formularza 
+//sprawdzenie czy zaÅ‚Ä…cznik pochodzi z formularza 
 if ($_POST["wyslij"]==1) 
 { 
 // dane o odbiorcy, nadawcy 
@@ -60,10 +60,10 @@ $wiadomosc=$_POST["wiadomosc"];
 
 
 
-// tre¶æ listu 
+// treÅ›Ä‡ listu 
 $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\" cellspacing=\"2\" align=center style=\"font-family: Verdana; font-size: 12px;\"> 
 <tr> 
-<td>Imiê i Nazwisko:</td> 
+<td>ImiÄ™ i Nazwisko:</td> 
 <td><b>".$imie."</b></td> 
 </tr> 
 <tr> 
@@ -79,29 +79,29 @@ $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\"
 <td><b>".$miejscowosc."</b></td> 
 </tr>
 <tr>
-<td>Tre¶æ wiadomo¶ci:</td> 
+<td>TreÅ›Ä‡ wiadomoÅ›ci:</td> 
 <td><b>".$wiadomosc."</b></td> 
 <tr> 
-<td colspan=\"2\"><br>Proszê nie odpowiadaæ na tê wiadomo¶æ jest wygenerowana automatycznie<br></td>  
+<td colspan=\"2\"><br>ProszÄ™ nie odpowiadaÄ‡ na tÄ™ wiadomoÅ›Ä‡ jest wygenerowana automatycznie<br></td>  
 </tr>
 </table>"; 
 
-// definicja nag³ówków 
+// definicja nagÅ‚Ã³wkÃ³w 
   $naglowki  = "From: $nadawca \n"; 
   $naglowki .= "MIME-Version: 1.0\n"; 
   $naglowki .= "Content-Type: multipart/mixed;\n"; 
   $naglowki .= "\tboundary=\"___$znacznik==\""; 
 
-// nag³ówki listu 
+// nagÅ‚Ã³wki listu 
   $tresc="--___$znacznik==\n"; 
   $tresc .="Content-Type: text/html; charset=\"iso-8859-2\"\n"; 
   $tresc .="Content-Transfer-Encoding: 8bit\n"; 
   $tresc .="\n$tresclistu\n"; 
 
-// wys³anie listu 
+// wysÅ‚anie listu 
      if (mail($odbiorca,$tytul,$tresc,$naglowki)) 
    { 
-   print "Wiadomo¶æ wys³ana dziêkujemy"; 
+   print "WiadomoÅ›Ä‡ wysÅ‚ana dziÄ™kujemy"; 
    } 
    else 
    { 
@@ -116,7 +116,7 @@ $tresclistu = "<table border=\"0\" width=\"100%\" border=\"0\" cellpadding=\"1\"
   </div>
   <div id="dol">
   <div style="float:right;margin-top:12px;margin-right:20px;">wykonanie: <a href="http://www.projektowanie-www.info.pl" target="_blank" style="color:#fff;">projektowanie stron www</a></div>
-  <div style="text-align:left;margin-top:12px;margin-left:20px;">&copy; SempreTaniec.pl Wszelkie prawa zastrze¿one!</div>
+  <div style="text-align:left;margin-top:12px;margin-left:20px;">&copy; SempreTaniec.pl Wszelkie prawa zastrzeÅ¼one!</div>
   </div>
   </div>
   </body>
