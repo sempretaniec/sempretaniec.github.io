@@ -1,0 +1,424 @@
+body {
+  background: #4f0b3d url(photo/tlo.jpg) repeat-x;
+  color: #000;
+  font-family: Arial;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 0px;
+  text-align: center;
+}
+a {
+    text-decoration:none;
+    color:#fff;
+}
+h1.belka {
+    margin:0;
+    padding:0;
+      font-size: 11px;
+    text-align: center;
+    background-color: #4f0b3d;
+    color:#cf6eb4;
+
+}
+
+h4.cennik {
+    margin:0;
+    padding:0;
+    color:#cf6eb4;
+    font-weight:bold;
+    font-size:22px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+}
+p.instruktorzy {
+    height: 60px;
+    font-size:16px;
+     margin: 20px 10px 10px 0;
+    
+}
+
+img.instruktor-male{
+    float:left;
+    margin:0 10px 10px 0;
+    border: 2px solid #cf6eb4;
+}
+div.kadra {
+    height: 180px;
+    margin-bottom:10px;
+
+}
+
+div.kadra h4 {
+    color: #cf6eb4;
+    font-size:18px;
+     margin: 30px 10px 10px 0;
+
+}
+
+img.instruktor{
+    float:left;
+    margin:10px 10px 10px 0;
+    border: 3px solid #cf6eb4;
+}
+
+div.rodzaje-zajec a:link, a:visited {
+    display: inline;
+    font-weight: bold;
+}
+
+div.tresc{
+    width:900px;
+    height:auto;
+    overflow:hidden;
+    float:left;
+    text-align:left;
+
+}
+div.tresc h1{
+    color:#cf6eb4;
+    margin: 30px 0 10px 0;
+}
+div.tance-lewa {
+
+     float:left;
+    width:580px;
+    margin:0 15px 0 25px;
+
+    border-right: 3px solid #cf6eb4;
+}
+div.tance-lewa p{
+     padding-right: 10px;
+     margin:0;
+}
+div.tance-lewa h3{
+font-size:18px;
+color: #cf6eb4;
+}
+div.tance-lewa table h6{
+    margin:5px;
+    font-size:16px;
+}
+div.tance-lewa li{
+     padding-right: 10px;
+     margin:0;
+         }
+li.przyrzady {
+     font-size: 16px;
+     font-weight: bold;
+     padding-bottom:7px;
+
+}
+
+div.tance-lewa table{
+    background-color: #fff;
+    border:1px solid #CF6EB4;
+  border-collapse: collapse;
+  text-align:center;
+}
+div.tance-lewa td{
+
+  border: 1px solid #CF6EB4;
+  width: 122px;
+  font-size: 11px;
+
+  color:#5B1949;
+
+}
+div.tance-prawa {
+    float:right;
+     margin:0 20px 20px 0;
+     width:212px;
+
+
+}
+div.tresc h4{
+    font-size:16px;
+     margin: 20px 10px 10px 0;
+     color: #cf6eb4;
+
+
+}
+
+div#center {
+  width: 900px;
+  margin: 0px auto;
+  background-image: url(photo/tlo.jpg);
+}
+
+table#tabelad {
+  margin: 0 0 0 200px ;
+  border:1px solid #CF6EB4;
+  border-collapse: collapse;
+  text-align:center;
+}
+
+#tabelad td {
+  border: 1px solid #CF6EB4;
+  width: 82px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#tabelad tr {
+  height: 21px;
+}
+
+table#tabelam {
+  margin:0 0 0 200px;
+  border:1px solid #FB3D47;
+  border-collapse: collapse;
+  text-align:center;
+}
+
+#tabelam td {
+  border: 1px solid #FB3D47;
+  width: 82px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+#tabelam tr {
+  height: 21px;
+}
+
+.bold {
+    font-weight:bold;
+}
+.zielony{
+    color: #2EB420;
+}
+
+.czerwony{
+    color: red;
+}
+    
+.dopisek {
+    font-size: 10px;
+    color: white;
+}
+.dopisek_czerwony{
+    font-size: 10px;
+    color: red;
+
+}
+.dopisek_fioletowy{
+    font-size: 10px;
+    color: #FC8BDD;
+}
+.kurs-tytul{
+    color: #f26933;
+    font-weight: bold;
+    font-size:15px;
+}
+div.aktualnosci{
+
+}
+
+div.aktualnosci h6{
+    margin:0 0 5px 0;
+    font-size: 18px;
+    color: #cf6eb4;
+
+}
+div.linie{
+    text-align:center;
+    margin: 10px 0 10px 0 ;
+
+}
+
+div.kurs {
+    margin:20px 20px 0 0;
+    height: 100px;
+    border-bottom: 2px solid #cf6eb4;
+}
+
+div.kurs img {
+    float: left;
+    border: none;
+    margin-right:10px;
+}
+div.kurs a:link, a:visited {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.wiecej{
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+a.ikony{  
+    	text-decoration: none;
+    	margin: 0 30px;
+    	margin top: 20px;
+    	
+}
+a.ikony img{
+    	border: 0;
+}
+
+a.ikony-fitness{ 
+    	text-decoration: none;
+    	margin: 0 35px;
+    	margin top: 20px;
+    	
+}
+a.ikony-fitness img{
+    	border: 2px solid white;
+}
+
+.photo1 {
+  border-style: none;
+  border-width: 0px;
+}
+.photo2 {
+  margin-left: 15px;
+  margin-top: 15px;
+
+   border: solid 4px #A30276;
+}
+.photo3 {
+  margin-right: 0px;
+  margin-left: 10px;
+  border-style: none;
+  border-width: 0px;
+}
+
+#logo {
+   z-index: 1;
+  width: 899px;
+  overflow: hidden;
+  
+}
+
+#logo2 {
+ z-index: 1;
+  width: 900px;
+  height: 123px;
+  overflow: hidden;
+}
+
+#logo3 {
+ z-index: 1;
+  width: 900px;
+  height: 163px;
+  overflow: hidden;
+}
+
+#menu { 
+   
+    padding:0;
+    margin:0;
+  width: 898px;
+  height: 61px;
+  overflow: hidden;
+  background: url(photo/menutlo.jpg) repeat-x;
+
+
+  }
+  
+dl, dl dd {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+dl dd {
+  width: 898px;
+  	
+}
+
+dl a.menus:link, dl a.menus:visited {
+	text-decoration: none;
+	display: inline;
+	text-align: left;
+	color: #fff;
+	padding-left: 3px;
+	padding-right: 4px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+dl a.menus:hover {
+  color: #bb3b9b;
+}
+
+#srodek {
+  width: 900px;
+  height: auto;
+  overflow: hidden;
+  background: #28051f url(photo/tlos.jpg) repeat-x;
+  }
+  
+#dol {
+  clear:both;
+  width: 900px;
+  height: 40px;
+  overflow: hidden;
+  background: #8c2e73;
+  font-size:10px;
+  color:#fff;
+}
+.paragraf {
+    text-align:center;
+    font-size:13px;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.naglowek  {
+text-align:center;
+font-size:18px;
+}
+.form {
+  color: #000000;
+  background: #72005e;
+  font-size: 11px;
+  font-family: arial;
+  width: 240px;
+  height: 12px;
+  border-style: solid;
+  border-color: #1E2327;
+  border-width: 0px;
+  margin-bottom: 1px;
+}
+
+.button {
+  color:#000000;
+  background-image: url(photo/wyslij.jpg);
+  font-size:11px;
+  width:107px;
+  height:31px;
+  border-width:0px;
+  margin-right:5px;
+  margin-left:70px;
+  margin-top:15px;
+  cursor: pointer;
+}
+
+.text {
+  color:#000000;
+  background:#72005e;
+  font-size:11px;
+  font-family:arial;
+  width:240px;
+  height:100px;
+  border-style:solid;
+  border-color:#1E2327;
+  border-width:0px;
+}

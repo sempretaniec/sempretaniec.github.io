@@ -1,0 +1,71 @@
+h1 {
+    margin-left: 10px;
+    font-size: xx-large;
+    background-color: #8c2e73;
+    width:95%;
+}
+h3{
+    width:auto;
+  padding:0 50px;
+}
+a {
+    text-decoration: underline;
+    color: #FFB2E6;
+    }
+#glowny{
+    width:90%;
+    margin-top: 50px;
+    margin-left: 60px;
+     margin-bottom: 100px;
+}
+table {
+   margin-left: 90px;
+ border-spacing: 8px;
+    
+}
+th, td {
+    height: 80px;
+    border-radius: 12px;
+    font-weight: bold;
+    
+    
+    
+}
+th.dsala, th.msala {
+    color: inherit;
+   font-size: x-large;
+    background-color: transparent;
+}
+.time{
+    width:100px;
+    
+}
+.dsala, .msala {
+    width:200px;
+    
+    color: #270f20;
+}
+.dsala {
+    font-weight: bold;
+   background-color: #FF00FF; 
+}
+.msala {
+    
+    background-color: #FF0000;
+}
+td.time {
+   font-size: large;
+}
+.onhover{
+    background-color: transparent;
+     border-radius: 2px;
+     font-weight: bold;
+}
+.instruktord{
+    color: #FF00FF;
+
+}
+.instruktorm{
+    color: #FF0000;
+
+}

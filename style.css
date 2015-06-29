@@ -1,0 +1,603 @@
+body {
+  background: #4f0b3d url(photo/tlo.jpg) repeat-x;
+  color: #000;
+ font:13px/1.2 Arial;
+  color: #fff;
+
+  margin-top: 0px;
+  text-align: center;
+}
+a {
+    text-decoration:none;
+    color:#fff;
+}
+.przycisk {
+text-align: center;
+}
+.przycisk a{
+background: #7b2564;
+padding:10px;
+ border-top:2px solid #a9398d;
+  border-left:2px solid #a9398d;
+  border-right:2px solid #4e1b41;
+  border-bottom:2px solid #4e1b41;
+}
+.przycisk a:hover{
+ color:#fff;
+
+padding:12px 8px 8px 12px;
+ border-top:2px solid #4e1b41;
+  border-left:2px solid #4e1b41;
+  border-right:2px solid #a9398d;
+  border-bottom:2px solid #a9398d;
+}
+
+h1.belka {
+    margin:0;
+    padding:0;
+      font-size: 11px;
+    text-align: center;
+    background-color: #4f0b3d;
+    color:#cf6eb4;
+
+}
+
+h4.cennik {
+    margin:0;
+    padding:0;
+    color:#cf6eb4;
+    font-weight:bold;
+    font-size:22px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+}
+p.instruktorzy {
+    height: 60px;
+    font-size:16px;
+     margin: 20px 10px 10px 0;
+    
+}
+
+
+img.instruktor-male{
+    float:left;
+    margin:0 10px 10px 0;
+    border: 2px solid #cf6eb4;
+}
+
+div.kontener {
+  
+     float:left;
+}
+div.kontener h4 {
+    color: #cf6eb4;
+    font-size:18px;
+}
+
+div.kadra {
+       height:190px;
+       width:150px;
+       float:left;
+}
+
+
+
+img.instruktor{
+ 
+   
+}
+ div.kadra-tresc {
+ float:left;
+ width:650px;
+ clear:right;
+}
+
+div.tresc{
+    width:900px;
+    height:auto;
+    overflow:hidden;
+    float:left;
+    text-align:left;
+
+}
+div.tresc h1{
+    color:#cf6eb4;
+    margin: 30px 0 10px 0;
+}
+div.tance-lewa {
+
+     float:left;
+    width:580px;
+    margin:0 15px 0 25px;
+
+    border-right: 3px solid #cf6eb4;
+}
+div.tance-lewa p{
+     padding-right: 10px;
+     margin:0;
+}
+div.tance-lewa h3{
+font-size:18px;
+color: #cf6eb4;
+}
+div.tance-lewa table h6{
+    margin:5px;
+    font-size:16px;
+}
+div.tance-lewa li{
+     padding-right: 10px;
+     margin:0;
+         }
+li.przyrzady {
+     font-size: 16px;
+     font-weight: bold;
+     padding-bottom:7px;
+
+}
+
+div.tance-lewa table{
+    background-color: #fff;
+    border:1px solid #CF6EB4;
+  border-collapse: collapse;
+  text-align:center;
+}
+div.tance-lewa td{
+
+  border: 1px solid #CF6EB4;
+  width: 122px;
+  font-size: 11px;
+
+  color:#5B1949;
+
+}
+
+
+div.ferie table h6{
+    margin:5px;
+    font-size:16px;
+}
+ div.ferie td{
+  border: 1px solid #CF6EB4;
+  width: 122px;
+  font-size: 11px;
+  color:#5B1949;
+}
+div.ferie table{
+    background-color: #fff;
+    border:1px solid #CF6EB4;
+  border-collapse: collapse;
+  text-align:center;
+}
+
+
+div.tance-prawa {
+    float:right;
+     margin:0 20px 20px 0;
+     width:212px;
+
+
+}
+div.tresc h4{
+    font-size:16px;
+     margin: 20px 10px 10px 0;
+     color: #cf6eb4;
+
+
+}
+
+div#center {
+  width: 900px;
+  margin: 0px auto;
+  background-image: url(photo/tlo.jpg);
+}
+
+#tabelad {
+  margin: 0 0 0 200px ;
+  border:1px solid #CF6EB4;
+  border-collapse: collapse;
+  text-align:center;
+}
+
+#tabelad td {
+  border: 1px solid #CF6EB4;
+  width: 82px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#tabelad tr {
+  height: 21px;
+}
+
+#tabelam {
+  margin:0 0 0 200px;
+  border:1px solid #FB3D47;
+  border-collapse: collapse;
+  text-align:center;
+}
+
+#tabelam td {
+  border: 1px solid #FB3D47;
+  width: 82px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+#tabelam tr {
+  height: 21px;
+}
+
+.bold {
+    font-weight:bold;
+}
+.zielony{
+    color: #2EB420;
+}
+
+.czerwony{
+    color: red;
+}
+    
+.dopisek {
+    font-size: 10px;
+    color: white;
+}
+.dopisek_czerwony{
+    font-size: 10px;
+    color: red;
+
+}
+.dopisek_fioletowy{
+    font-size: 10px;
+    color: #FC8BDD;
+}
+.kurs-tytul-taniec{
+    color: #cf6eb4;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.kurs-tytul-fitness{
+    color: red;
+    font-weight: bold;
+    font-size:15px;
+}
+
+div.galeria {
+          float: left;
+          text-align:center; 
+          width: 170px;
+          height: 215px; 
+          font-size: 13px;
+}
+ div.galeria a:link, a:visited {
+      font-size: 13px;
+      font-weight: normal;
+ } 
+ div.galeria-tytul {
+ float: left;
+ text-align:center;
+ font-weight:bold;
+  width: 205px;
+  height: 190px ;
+ }
+div.aktualnosci h6{
+    margin:0 0 5px 0;
+    font-size: 18px;
+    color: #cf6eb4;
+
+}
+div.linie{
+    text-align:center;
+    margin: 10px 0 10px 0 ;
+
+}
+
+div.kurs {
+    margin:20px 20px 0 0;
+    height: 120px;
+    border-bottom: 2px solid #CFC7D2;
+}
+
+div.kurs img {
+    float: left;
+    border: none;
+    margin-right:20px;
+}
+div.kurs a:link, a:visited {
+   
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.wiecej{
+    color: red;
+    font-size: 12px;
+    
+    margin-top: 10px;
+}
+a.ikony{  
+    	text-decoration: none;
+    	margin: 0 30px;
+    	margin-top: 20px;
+    	
+}
+a.ikony img{
+    	border: 2px solid #920690;
+}
+
+a.ikony-fitness{ 
+    	text-decoration: none;
+    	margin: 0 35px;
+    	margin top: 20px;
+    	
+}
+a.ikony-fitness img{
+    	border: 2px solid #cc0404;
+}
+
+.photo1 {
+  border-style: none;
+  border-width: 0px;
+}
+.photo2 {
+  margin-left: 15px;
+  margin-top: 15px;
+
+   border: solid 2px #A30276;
+}
+.photo3 {
+  margin-right: 0px;
+  margin-left: 10px;
+  border-style: none;
+  border-width: 0px;
+}
+
+#logo {
+   
+  width: 899px;
+  overflow: hidden;
+   height: 241px;
+}
+
+#logo2 {
+ z-index: 1;
+  width: 900px;
+  height: 123px;
+  overflow: hidden;
+}
+
+#logo3 {
+ z-index: 1;
+  width: 900px;
+  height: 163px;
+  overflow: hidden;
+}                 
+
+#cssmenu{ height:55px; display:block; padding:0; margin:  0 auto;  border:1px solid ; border-radius:5px; }
+#cssmenu > ul {list-style:inside none; padding:0; margin:0;top:-10px;}
+#cssmenu > ul > li {
+   list-style:inside none; 
+   padding: 0; 
+   margin:0; 
+   float:left; 
+   display:block; 
+   position:relative;
+  }
+   
+#cssmenu > ul > li > a{ 
+   outline:none; 
+   display:block; 
+   position:relative; 
+   padding:18px 7px 20px 7px;
+ 	font-size: 14px;
+	font-weight: bold;
+   text-align:center; 
+   text-decoration:none; 
+   text-shadow:1px 1px 0 rgba(0,0,0, 0.4);
+   
+    }
+#cssmenu > ul > li:first-child > a{border-radius:5px 0 0 5px;}
+#cssmenu > ul > li > a:after{ 
+  content:''; 
+  position:absolute; 
+ 
+ 
+  z-index:99; 
+  }
+#cssmenu ul li.has-sub:hover > a:after{
+  top:0; bottom:0;
+  }
+#cssmenu > ul > li.has-sub > a:before{ 
+   content:'';
+    position:absolute; 
+    top:10px; 
+    right:6px; 
+   
+     }
+#cssmenu > ul > li.has-sub:hover > a:before{
+   top:19px;
+   }
+#cssmenu ul li.has-sub:hover > a{ 
+/*tlo menu rozwijanego po zjechaniu na rozwiniete menu*/
+   background:#892676; 
+  
+   padding-bottom:20px; 
+   padding-top:18px; 
+   top:0;
+   z-index:999; 
+   }
+#cssmenu ul li.has-sub:hover > ul, #cssmenu ul li.has-sub:hover > div{
+   display:block;
+   }
+#cssmenu ul li.has-sub > a:hover{
+/*t³o menu rozwijanego hover */
+    background:#892676; 
+    
+    }
+    
+
+
+#cssmenu ul li > ul, #cssmenu ul li > div{ 
+  display:none; 
+  width:auto; 
+  position:absolute; 
+  top:52px; 
+  padding:1px 0; 
+  /* T³o menu rozwiniêtego*/
+  background:#892676 ; 
+  
+   z-index:999; }
+#cssmenu ul li > ul{
+  width:150px;
+  }
+#cssmenu ul li > ul li{
+   display:block; 
+   list-style:inside none; 
+   padding:0; 
+   margin:0; 
+   position:relative;
+   }
+#cssmenu ul li > ul li a{ 
+   outline:none; 
+   display:block; 
+   position:relative; 
+   text-align: left;
+   margin:0; 
+   padding:8px 10px; 
+   font:10pt Arial, Helvetica, sans-serif; 
+   color:#fff; 
+   text-decoration:none; 
+   text-shadow:1px 1px 0 rgba(0,0,0, 0.5); 
+   }
+#cssmenu, #cssmenu > ul > li > ul > li a:hover{ 
+/*t³o po najechaniu myszk± na element rozwiniêty*/
+   background:url(photo/menutlo.jpg) repeat-x;
+    }
+#cssmenu{border:none;}   
+/*kolor czcionki menu*/
+#cssmenu > ul > li > a{
+color:#fff;}
+#cssmenu > ul > li > a:after{} 
+
+/*t³o element&oacute;w g³&oacute;wnych menu hover*/
+#cssmenu > ul > li > a:hover{background:#892676;}
+
+
+#menu { 
+position:absolute;
+   top:240px;
+    padding:0;
+    margin:0;
+  width: 900px;
+  height: 55px;
+  overflow: hidden;
+  background: url(photo/menutlo.jpg) repeat-x;
+
+
+  }
+  
+dl, dl dd {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+dl dd {
+  width: 898px;
+  	
+}
+
+dl a.menus:link, dl a.menus:visited {
+	text-decoration: none;
+	display: inline;
+	text-align: left;
+	color: #fff;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 14px;
+	font-weight: bold;
+        height: 53px;
+}
+dl a.menus:hover {
+  color: #bb3b9b;
+}
+
+#srodek {
+  width: 900px;
+  height: auto;
+  overflow: hidden;
+  background: #28051f url(photo/tlos.jpg) repeat-x;
+  }
+  
+#dol {
+  clear:both;
+  width: 900px;
+  height: 40px;
+  overflow: hidden;
+  background: #8c2e73;
+  font-size:10px;
+  color:#fff;
+}
+.paragraf {
+    text-align:center;
+    font-size:13px;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.naglowek  {
+text-align:center;
+font-size:18px;
+}
+.form {
+  color: #000000;
+  background: #72005e;
+  font-size: 11px;
+  font-family: arial;
+  width: 240px;
+  height: 12px;
+  border-style: solid;
+  border-color: #1E2327;
+  border-width: 0px;
+  margin-bottom: 1px;
+}
+
+.button {
+  color:#000000;
+  background-image: url(photo/wyslij.jpg);
+  font-size:11px;
+  width:107px;
+  height:31px;
+  border-width:0px;
+  margin-right:5px;
+  margin-left:70px;
+  margin-top:15px;
+  cursor: pointer;
+}
+
+.text {
+  color:#000000;
+  background:#72005e;
+  font-size:11px;
+  font-family:arial;
+  width:240px;
+  height:100px;
+  border-style:solid;
+  border-color:#1E2327;
+  border-width:0px;
+}

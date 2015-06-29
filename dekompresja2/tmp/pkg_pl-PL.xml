@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+   <name>Polish Language Pack</name>
+   <packagename>pl-PL</packagename>
+   <version>2.5.14.1</version>
+   <creationDate>1 sierpnia 2013</creationDate>
+   <author>Polski Zespół Tłumaczy</author>
+   <authorEmail>zwiastun@joomla.pl</authorEmail>
+   <authorUrl>www.joomla.pl</authorUrl>
+    <copyright>Copyright (C) 2005 - 2013 Open Source Matters and PCJ Otwarte Źrodła. All right reserved.</copyright>
+   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+   <url></url>
+   <packager>Polskie Centrum Joomla!</packager>
+   <packagerurl>www.joomla.pl</packagerurl>
+   <description>
+    <![CDATA[
+    <h3>Kompletny pakiet języka polskiego dla Joomla! pl-PL wersja 2.5.14.1</h3>
+    <div style="font-weight: normal">
+	<p>Zainstalowano lub uaktualniono:</p>
+		<ul>
+			<li>pliki języka polskiego witryny dla Joomla 2.5.14</li>
+			<li>pliki języka polskiego zaplecza dla Joomla 2.5.14</li>
+			<li>pliki języka polskiego dla edytora TinyMCE 3.5.2</li>
+		</ul></div>
+		<h3>Jeśli jest to Twoja pierwsza instalacja języka polskiego w tym Joomla!:</h3>
+		<div style="font-weight: normal"><ul>
+			<li>przejdź na stronę <a href="index.php?option=com_languages">Extensions/Language Manager</a> i ustaw język polski jako domyślny język witryny (na karcie <i>Installed Site</i>) oraz jako domyślny język zaplecza (na karcie <i>Installed - Administrator</i>, </li>
+			<li>przejdź na stronę <a href="index.php?option=com_plugins&amp;view=plugins&amp;filter_search=TinyMCE">dodatku 'Edytor - TinyMCE'</a> i ustaw parametr Kod języka ('Kod języka' = pl) albo ustaw 'Automatyczne wykrywanie języka' na 'Tak' pod warunkiem, że masz zainstalowane pakiety językowe TinyMCE wszystkich języków używanych w Joomla!</li>
+		</ul>	</div>  
+	]]>
+   </description>
+   <files>
+      <file type="language" client="site" id="pl-PL">site_pl-PL.zip</file>
+      <file type="language" client="administrator" id="pl-PL">admin_pl-PL.zip</file>
+      <file type="file" client="site" id="TinyMCE_pl-PL">pl-PL_TinyMCE_3.5.2.1.zip</file>
+   </files>
+    <updateservers>
+        <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+    </updateservers>
+</extension>

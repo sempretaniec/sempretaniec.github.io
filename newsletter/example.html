@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>txtList example form</title>
+<style type="text/css">
+body {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+}
+td {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+}
+</style>
+</head>
+
+<body>
+View the source of this page to get the HTML you need to create the front-end for your
+subscription process. Remember to change the <i>action="./index.php"</i> attribute to
+reflect the path to txtList on your site, if it's different.
+<p>
+You can use this as your subscribe / unsubscribe form:
+<p>
+
+
+<form name="txtlist" action="./index.php" target="txtlist" method="get" onSubmit="JavaScript:window.open('','txtlist','width=300,height=150,toolbar=no,status=no,resizable=no')">
+<table border="0" cellpadding="4" cellspacing="0" bgcolor="#efefef" style="border: #dedede 3px double;">
+<tr><td>
+<input type="text" name="email" value="email address" size="20" maxlength="100" onFocus="if (this.value=='email address') this.value=''" onBlur="if (this.value=='') this.value='email address'">
+<input type="submit" name="sub" value="go"><br>
+<input type="radio" name="type" id="type_sub" value="sub" checked><label for="type_sub">Subscribe</label>&nbsp;&nbsp;<input type="radio" name="type" value="unsub" id="type_unsub"><label for="type_unsub">Unsubscribe</label>
+</td></tr>
+</table>
+</form>
+
+<p>
+
+Or use this as a subscribe-only form:
+
+<p>
+
+<form name="txtlist" action="./index.php" target="txtlist" method="get" onSubmit="JavaScript:window.open('','txtlist','width=300,height=150,toolbar=no,status=no,resizable=no')">
+<table border="0" cellpadding="4" cellspacing="0" bgcolor="#efefef" style="border: #dedede 3px double;">
+<tr><td>
+<input type="hidden" name="type" value="sub">
+<input type="text" name="email" value="email address" size="20" maxlength="100" onFocus="if (this.value=='email address') this.value=''" onBlur="if (this.value=='') this.value='email address'">
+<input type="submit" name="sub" value="subscribe">
+</td></tr>
+</table>
+</form>
+
+<p>
+
+Along with this as an unsubscribe form (you could put this on a separate page and provide the
+URL in your emails as the unsubscribe link):
+
+<p>
+
+<form name="txtlist" action="./index.php" target="txtlist" method="get" onSubmit="JavaScript:window.open('','txtlist','width=300,height=150,toolbar=no,status=no,resizable=no')">
+<table border="0" cellpadding="4" cellspacing="0" bgcolor="#efefef" style="border: #dedede 3px double;">
+<tr><td>
+<input type="hidden" name="type" value="unsub">
+<input type="text" name="email" value="email address" size="20" maxlength="100" onFocus="if (this.value=='email address') this.value=''" onBlur="if (this.value=='') this.value='email address'">
+<input type="submit" name="sub" value="unsubscribe">
+</td></tr>
+</table>
+</form>
+
+<p>
+
+This one doesn't produce a pop-up window. If you use it, you might want to change the $cfg['template']
+variable in config.inc.php and replace the 'close' link with a 'back' link
+(&lt;href="JavaScript:history.back()"&gt;back&lt;/a&gt;).
+
+<p>
+
+<form name="txtlist" action="./index.php" method="get">
+<table border="0" cellpadding="4" cellspacing="0" bgcolor="#efefef" style="border: #dedede 3px double;">
+<tr><td>
+<input type="text" name="email" value="email address" size="20" maxlength="100" onFocus="if (this.value=='email address') this.value=''" onBlur="if (this.value=='') this.value='email address'">
+<input type="submit" name="sub" value="go"><br>
+<input type="radio" name="type" id="type_sub" value="sub" checked><label for="type_sub">Subscribe</label>&nbsp;&nbsp;<input type="radio" name="type" value="unsub" id="type_unsub"><label for="type_unsub">Unsubscribe</label>
+</td></tr>
+</table>
+</form>
+
+</body>
+</html>
